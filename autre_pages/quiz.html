@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="icon" href="../images/f1.png">
+</head>
+
+<body>
+  <header>
+    <a class="button" href="../index.html">Home</a>
+    <a class="button" href="diplomas.html">Diplomas</a>
+    <a class="button" href="internship.html">Internship</a>
+    <a class="clicked-button" href="quiz.html">Quiz</a>
+    <a class="button" href="contact.html">Contact</a>
+  </header>
+
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+    <form id="quizForm">
+      <!-- Q1 -->
+      <div class="question" id="q1">
+        <p>1. Who is Adem Ettawes ?</p>
+        <label><input type="radio" name="q1" value="a" /> singer</label>
+        <label><input type="radio" name="q1" value="b" /> actor </label>
+        <label><input type="radio" name="q1" value="c" /> footballer </label>
+      </div>
+      <!-- Q2 -->
+      <div class="question" id="q2">
+        <p>2. How many seasons in "choufli hall"? </p>
+        <label><input type="radio" name="q2" value="a" /> 3</label>
+        <label><input type="radio" name="q2" value="b" /> 5</label>
+        <label><input type="radio" name="q2" value="c" /> 6</label>
+      </div>
+      <!-- Q3 -->
+      <div class="question" id="q3">
+        <p>3. Who won the "ballon d'or" this year? </p>
+        <label><input type="radio" name="q3" value="a" /> adem ettawes </label>
+        <label><input type="radio" name="q3" value="b" /> mohsen ifaa </label>
+        <label><input type="radio" name="q3" value="c" /> rodri </label>
+      </div>
+      <!-- Q4 -->
+      <div class="question" id="q4">
+        <p>4. Who played the role "AMMAR" in bolice?</p>
+        <label><input type="radio" name="q4" value="a" /> lotfi abdelli </label>
+        <label><input type="radio" name="q4" value="b" /> kamel tweti </label>
+        <label><input type="radio" name="q4" value="c" /> chedli arfaoui </label>
+      </div>
+      <!-- Q5 -->
+      <div class="question" id="q5">
+        <p>5. Where did "AMMAR" studied?</p>
+        <label><input type="radio" name="q5" value="a" /> Tunisia </label>
+        <label><input type="radio" name="q5" value="b" /> America </label>
+        <label><input type="radio" name="q5" value="c" /> Gabon </label>
+      </div>
+      <!-- Q6 -->
+      <div class="question" id="q6">
+        <p>6. When was the last time CSS won against Real madrid?</p>
+        <label><input type="radio" name="q6" value="a" /> 2024 </label>
+        <label><input type="radio" name="q6" value="b" /> never </label>
+        <label><input type="radio" name="q6" value="c" /> 2020 </label>
+      </div>
+      <!-- Q7 -->
+      <div class="question" id="q7">
+        <p>7. Who is the biggest fan of Bob marley?</p>
+        <label><input type="radio" name="q7" value="a" /> Choko </label>
+        <label><input type="radio" name="q7" value="b" /> Titi </label>
+        <label><input type="radio" name="q7" value="c" /> Montassar weld khalti hbiba </label>
+      </div>
+      <!-- Q8 -->
+      <div class="question" id="q8">
+        <p>8. Who said "Dali omrou mayohsel"?</p>
+        <label><input type="radio" name="q8" value="a" /> Youssef Becheikh </label>
+        <label><input type="radio" name="q8" value="b" /> Mahdi </label>
+        <label><input type="radio" name="q8" value="c" /> Dali </label>
+      </div>
+      <!-- Q9 -->
+      <div class="question" id="q9">
+        <p>9. Which tunisian serie is the best?</p>
+        <label><input type="radio" name="q9" value="a" /> Khottab aal beb</label>
+        <label><input type="radio" name="q9" value="b" /> Sayd erim</label>
+        <label><input type="radio" name="q9" value="c" /> Mnemet arousiya</label>
+      </div>
+      <!-- Q10 -->
+      <div class="question" id="q10">
+        <p>10. Who played "Raif" in "Sayd erim"?</p>
+        <label><input type="radio" name="q10" value="a" /> Lamin nahdi</label>
+        <label><input type="radio" name="q10" value="b" /> FATHI HADDEWI</label>
+        <label><input type="radio" name="q10" value="c" /> Farhat hnena</label>
+      </div>
+
+      <button type="button" id="submitBtn" onclick="checkAnswers()">
+        Submit
+      </button>
+    </form>
+    <div id="result" style="display: none"></div>
+    <div id="answerList" style="display: none"></div>
+  </div>
+
+  <footer>
+    <div class="foot-sec">
+      <div class="ff">
+        <h3 id="tit">PAGES</h3>
+        <ol>
+          <li><a class="button1" href="../index.html">Home</a></li>
+          <li><a class="button1" href="diplomas.html">Diplomas</a></li>
+          <li><a class="button1" href="internship.html">Internship</a></li>
+          <li><a class="button1" href="quiz.html">Quiz</a></li>
+          <li><a class="button1" href="contact.html">Contact</a></li>
+        </ol>
+      </div>
+      <div class="ff">
+        <h3 id="tit1">CONTACT</h3>
+        <div class="con">
+          Email:
+          <a id="mail" href="mailto:youssef.trabelsi707@gmail.com">youssef.trabelsi707@gmail.com</a>
+        </div>
+        <div class="con">Phone: +216 52 914 034</div>
+        <div class="social">
+          <a href="https://www.linkedin.com/"><img class="icons" src="../images/linkedin-logo.png" alt="LinkedIn" /></a>
+          <a href="https://www.facebook.com/youssef.trabelsi159"><img class="icons" src="../images/Facebook-logo.png"
+              alt="Facebook" /></a>
+          <a href="https://www.instagram.com/youssef_trabelsi__/"><img class="icons" src="../images/instagram_logo.png"
+              alt="Instagram" /></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,389 @@
+#name {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#desc-div {
+    text-align: center;
+    align-items: center;
+}
+
+#pdp {
+    width: 280px;
+    height: 350px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.diploma-img {
+    display: block;
+    margin: 15px auto;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.par {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    margin-left: 260PX;
+    margin-right: 260px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.59)), url(../projet/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.847);
+    padding: 30px 0px 30px 350px;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1000; 
+}
+
+.button1 {
+    margin-left: 45px;
+    margin-right: 45px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.clicked-button {
+    color: rgb(235, 184, 83);
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: rgb(235, 184, 83);
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.button1:hover {
+    color: rgb(235, 184, 83);
+}
+
+#nom {
+    color: rgb(235, 184, 83);
+}
+
+#pdpp {
+    text-align: center;
+    margin: 80px 60px 60px 60px;
+    border-radius: 4px;
+}
+
+.icons {
+    width: 50px;
+    height: 40px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.752);
+    display: flex;
+    margin-top: 284px;
+
+    justify-content: space-around;
+}
+
+#tit {
+    color: rgb(235, 184, 83);
+    text-align: center;
+    font-size: large;
+    height: 35px;
+    margin-left: 40px;
+}
+
+.dip-soustitre {
+    color: rgb(235, 184, 83);
+    font-size: 20px;
+    height: 35px;
+    margin-left: 90px;
+}
+
+#tit1 {
+    color: rgb(235, 184, 83);
+    text-align: center;
+    font-size: large;
+    height: 35px;
+}
+
+.con {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: medium;
+    margin: 10px;
+}
+
+#git {
+    display: inline-block;
+    padding: 5px 70px 5px 70px;
+    border: 2px solid rgb(235, 184, 83);
+    background-color: rgba(0, 0, 0, 0.648);
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 530px;
+    margin-bottom: 40px;
+}
+
+ol li {
+    margin: 10px;
+}
+
+.foot-sec {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ff {
+    text-align: center;
+    margin: 10px;
+}
+
+#mail {
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    text-align: center;
+}
+
+.diploma-img {
+    display: block;
+    margin: 15px auto;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+
+.social-con {
+    margin-left: 60px;
+}
+
+.contact-tit {
+    color: white;
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block; /* Enables padding and border spacing */
+    border-bottom: 2px solid white; /* Creates the underline */
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px; /* Adjust the space between text and underline */
+}
+
+.p-contact {
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+#line {
+    color: rgb(235, 184, 83);
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#stay_soc {
+    padding-top: 40px;
+}
+
+.stage-img {
+    width: 210px;
+    height: 230px;
+    margin: 20px;
+}
+
+section p {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 60px;
+}
+
+#title-int {
+    color: white;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#line-int {
+    color: rgb(235, 184, 83);
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+article {
+    flex: 1;
+}
+
+.row {
+    margin-top: 40px;
+    flex: 1;
+    text-align: center;
+}
+
+.center {
+    align-items: flex-start;
+}
+
+video {
+    width: 300px;
+    cursor: pointer;
+    align-items: center;
+}
+
+#diploma-title {
+    margin-top: 30px;
+}
+
+.p-dip {
+    font-weight: bold;
+    margin-left: 110px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.quiz-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin: 50px 300px 10px 300px;
+    animation: fadeInSlideUp 2s ease-out;
+    opacity: 0; 
+    animation-fill-mode: forwards; 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(235, 184, 83);
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgb(235, 184, 83);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(148, 116, 52);
+}
+
+.progress-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress-bar-inner {
+    background: rgb(235, 184, 83);
+    height: 10px;
+    width: 0;
+    transition: width 0.4s ease;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animation-div {
+    animation: fadeInSlideUp 2s ease-out;
+    opacity: 0; 
+    animation-fill-mode: forwards; 
+}
